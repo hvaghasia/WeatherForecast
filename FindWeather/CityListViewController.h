@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CityListViewController.h
 //  FindWeather
 //
 //  Created by Hardik Vaghasia on 7/8/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CityListViewController : UITableViewController <UISearchBarDelegate>
 
 @end
